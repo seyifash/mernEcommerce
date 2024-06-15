@@ -1,0 +1,89 @@
+[
+    {
+        "brandName": "Example Brand A",
+        "name": "Example Product A",
+        "price": 49.99,
+        "description": "This is an example product description for Product A.",
+        "ratings": 4.8,
+        "images": [
+            {
+                "public_id": "sample_image_id_a",
+                "url": "https://example.com/image_a.jpg"
+            }
+        ],
+        "category": "Perfumes",
+        "seller": "Example Seller A",
+        "stock": 150,
+        "numOfReviews": 20,
+        "reviews": [
+            {
+                "name": "Alice Johnson",
+                "rating": 5,
+                "comment": "Amazing product!"
+            },
+            {
+                "name": "Bob Brown",
+                "rating": 4,
+                "comment": "Very good quality."
+            }
+        ]
+    },
+    {
+        "brandName": "Example Brand B",
+        "name": "Example Product B",
+        "price": 19.99,
+        "description": "This is an example product description for Product B.",
+        "ratings": 4.0,
+        "images": [
+            {
+                "public_id": "sample_image_id_b",
+                "url": "https://example.com/image_b.jpg"
+            }
+        ],
+        "category": "Deodorant",
+        "seller": "Example Seller B",
+        "stock": 200,
+        "numOfReviews": 15,
+        "reviews": [
+            {
+                "name": "Charlie Davis",
+                "rating": 4,
+                "comment": "Good value for money."
+            },
+            {
+                "name": "Dana Evans",
+                "rating": 3,
+                "comment": "Decent product."
+            }
+        ]
+    },
+    {
+        "brandName": "Example Brand C",
+        "name": "Example Product C",
+        "price": 9.99,
+        "description": "This is an example product description for Product C.",
+        "ratings": 3.5,
+        "images": [
+            {
+                "public_id": "sample_image_id_c",
+                "url": "https://example.com/image_c.jpg"
+            }
+        ],
+        "category": "Roll on",
+        "seller": "Example Seller C",
+        "stock": 300,
+        "numOfReviews": 25,
+        "reviews": [
+            {
+                "name": "Eve Franklin",
+                "rating": 4,
+                "comment": "Good for daily use."
+            },
+            {
+                "name": "Frank Green",
+                "rating": 3,
+                "comment": "Average performance."
+            }
+        ]
+    }
+]
