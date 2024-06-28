@@ -1,0 +1,163 @@
+.nav {
+    display: flex;
+    background: #fff;
+    padding: 0 4em;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dfdcdc;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+}
+.nav .nav1, 
+.nav .nav2 {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.nav .nav1 li a, 
+.nav .nav2 li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    opacity: 0;
+    transform: translateY(100%); 
+    animation: moveIn 2s forwards; 
+}
+.menu1, .menu2{
+    display: none;
+    color: #000;
+    font-size: 2em;
+}
+.cancel, .cancel2 {
+    width: 100%;
+    color: #fff;
+    font-size: 2.5em;
+    float: right;
+    display: none;
+}
+
+@keyframes moveIn {
+    0% {
+        transform: translateY(200%);
+    }
+    50% {
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.nav .nav2 {
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav .nav2 .sign {
+    padding: 0.8em 2.5em;
+    background: #000;
+    margin-left: 2em;
+    border-radius: 15em;
+}
+.nav .nav2 .sign  a {
+    color: #fff;
+    font-weight: 700;
+}
+.nav .img {
+   width: 15%;
+   background-image: url('../assets/landingPage/storelogoNbg4.png');
+   height: 5em;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-color: #fff;
+}
+
+@media (max-width: 1040px){
+    .nav .nav1 li a, .nav .nav2 li a {
+        font-size: 0.8em;
+    }
+    .nav .img {
+        width: 8em;
+        height: 4.5em;
+    }
+}
+
+@media (max-width: 900px){
+    .nav {
+        padding: 0 2em;
+    }
+    .nav .nav1 {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        background: rgba(0, 0, 0, 0.95);
+        position: fixed;
+        left: -100%;
+        top: 0;
+        row-gap: 2em;
+        padding: 2em;
+        z-index: 4;
+        transition: 0.4s ease;
+    }
+    .nav .nav2{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        width: 70%;
+        justify-content: flex-start;
+        background: rgba(0, 0, 0, 0.95);
+        position: fixed;
+        right: -70%;
+        top: 0;
+        row-gap: 2em;
+        padding: 2em;
+        z-index: 4;
+        transition: 0.4s ease;
+    }
+    .nav .nav1 li a, .nav .nav2 li a{
+        color: white;
+        font-size: 1em;
+        padding: 0.7em 0.7em;
+    }
+    .nav .nav2 li a {
+        font-size: 1.2em;
+        padding: 0.7em 1em;
+    }
+    .nav .nav2 .sign {
+        padding: 0.8em 4em;
+        background: #ffac39;
+        margin-left: 0;
+    }
+    .cancel, .cancel2 {
+        display: flex;
+    }
+    .nav .nav1.active{
+        left: 0;
+    }
+    .nav .nav2.active{
+        right: 0
+    }
+    .menu1, .menu2{
+        display: flex;
+    }
+
+}
+
+@media (max-width: 477px){
+    .nav {
+        padding: 0 1em;
+    }
+    .menu1, .menu2 {
+        font-size: 1.5em;
+    }
+    .nav .nav2 li a {
+        font-size: 1em;
+    }
+}

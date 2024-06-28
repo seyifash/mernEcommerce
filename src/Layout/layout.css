@@ -1,0 +1,32 @@
+
+.main {
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background: #fff;
+    transition: 0.5s;
+}
+.main.active {
+    width: calc(100% - 80px);
+    left: 80px;
+}
+.main .tg {
+    color: #fff;
+    height: 1.5em ;
+    width: 1.5em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    font-size: 1.5em;
+    background: #000;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0;
+    left: -2%;
+}
+.main .tg.active {
+    transform: rotate(0deg);
+}

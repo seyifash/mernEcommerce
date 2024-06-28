@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+    font-family: Lufga;
+    src: url("../assets/Colabero.otf");
+}
+
+@font-face {
+    font-family: Encorpada;
+    src: url('../assets/EncorpadaProLight.otf');
+}
+header {
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+
+
+header .marque{
+    padding: 0.4em 0.5em;
+    width: 100%;
+    background: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cormorant SC";
+    font-size: 0.9em;
+    font-weight: 700;
+} 
+
+header nav {
+    display: flex;
+    width: 100%;
+    padding: 1.3em 2em;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav .ul1 {
+    width: 30%;
+    justify-content: space-between;
+}
+header nav .ul1 a,
+header nav .ul2 a {
+    font-family: "Inter";
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    font-size: 0.85em;
+}
+header nav .ul2 {
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav .ul2 a{
+    margin-left: 2em;
+}
+header nav .ul2 .search,
+header nav .ul2 .bag{
+    font-size: 1.1em;
+}
+
+header nav span {
+    font-family: Lufga;
+    font-size: 0.85em;
+    font-weight: 700;
+}

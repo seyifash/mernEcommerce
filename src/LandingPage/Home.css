@@ -1,0 +1,1320 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+.container {
+    width: 100%;
+}
+.hero {
+    display: flex;
+    margin-top: 5em;
+    padding: 3em 4em;
+    background: #fff;
+    min-height: 100vh;
+    width: 100%;
+}
+.hero .part1 {
+    width: 50%;
+}
+.hero .part1 h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.hero .part1 .btn {
+    margin-top: 2em;
+    display: flex;
+    padding-left: 1.3em;
+    width: 11em;
+    height: 2.7em;
+    /*background:#ad6800;*/
+    background: #000;
+    border-radius: 15em;
+    align-items: center;
+}
+.hero .part1 .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero .part1 .btn .btn2 {
+    display: flex;
+    margin-left: 0.85em;
+    align-items: center;
+    justify-content: center;
+    width: 2.2em ;
+    height: 2.2em;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    float: left;
+}
+
+.hero .part1 p {
+    margin-top: 3em;
+    font-size: 0.8em;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.hero .tag2 {
+    display: none;
+}
+
+.hero .part1 .card {
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 9em;
+    background: white;
+    padding: 0.5em 0.5em;
+    border-radius: 0.5em;
+    gap: 0.7em;;
+}
+
+.hero .part1 .card img {
+    width: 32%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+.hero .part2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.hero .part2 .pics {
+    background-image: url("../assets/landingPage/ct.png");
+    height: 100vh;
+    width: 40%;
+    background-position: left -7em top 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero .part2 .pics3 {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero .part2 .pics3 .sm-pics {
+    width: 80%;
+    height: 20em;
+    background: #fff;
+    padding: 0.5em 0.5em;
+    float: left;
+    border-radius: 0.5em;
+    position: relative;
+}
+
+.hero .part2 .pics3 .open {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+}
+.hero .part2 .pics3 .open .arr {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: rgba(255, 255, 255, .17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgb(218, 218, 218);
+    font-size: 2em;
+    font-weight: 900;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    left: -2.5em;
+}
+.hero .part2 .pics3 .open .arr a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero .part2 .pics3 .open .text {
+    color: #000;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 800;
+    margin-right: 2em;
+}
+.hero .part2 .pics3 .sm-pics img {
+    width: 100%;
+    height:85%;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+.hero .part2 .pics3 .sm-pics .content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    color: #000;
+    font-size: 0.85em;
+    font-weight: 700;
+    justify-content: space-between;
+}
+.hero .part2 .pics3 .sm-pics .content .arr {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    border: 1px solid #dfdcdc;
+   place-content: center;
+   text-align: center;
+}
+
+.hero .part2 .pics3 .sm-pics .content .arr a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.hero .part2 .pics3 .sm-pics .disc {
+    padding: 0.4em 0.9em;
+    background: /*rgb(255, 255, 55)*/ #ffac39;
+    color: #000;
+    border-radius: 0.5em;
+    font-size: 0.85em;
+    font-weight: 900;
+    position:absolute;
+    top: 1em;
+    right: 1em;
+}
+.hero .part2 .pics3 .sm-pics .price{
+    padding: 0.4em 0.5em;
+    color: #fff;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    position:absolute;
+    background: #000;
+    color: #fff;
+    left: 1em;
+    bottom: 5em;
+}
+.sect-2 {
+    width: 100%;
+    padding: 3em 4em;
+}
+
+.sect-2 h1 {
+    font-size: 1.5em;
+    line-height: 4em;
+}
+.cards {
+    display: flex;
+    height: 20em;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+.cards .card{
+    width: 33%;
+    height: 100%;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+}
+.cards .sp {
+    position: absolute;
+    padding: 0.5em 0.9em;
+    background: #fff;
+    border-radius: 10em;
+    bottom: 1em;
+    left: 1em;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.card .content{
+    position: absolute;
+    top: 0.1em;
+    display: flex;
+    align-items: center;
+    height: 15%;
+    color: #000;
+    font-size: 0.85em;
+    font-weight: 700;
+    justify-content: space-between;
+    right: 0.5em;
+}
+
+.card .content .arr {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    border: 1px solid #dfdcdc;
+   place-content: center;
+   text-align: center;
+   background: #fff;
+   margin-left: 1em;
+}
+
+.card .content .arr a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.sect-3 {
+    display: flex;
+    width: 100%;
+    padding: 3em 4em; 
+}
+.sect-3 .pt-2 {
+    width: 50%;
+    padding-left: 6em;
+}
+.sect-3 .pt-2 .btn {
+    margin-top: 2em;
+    display: flex;
+    padding-left: 1em;
+    width: 10em;
+    height: 2.7em;
+    background:#000;
+    border-radius: 15em;
+    align-items: center;
+}
+.sect-3 .pt-2 .btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85em;
+}
+
+.sect-3 .pt-2 .btn .btn2 {
+    display: flex;
+    margin-left: 1.2em;
+    align-items: center;
+    justify-content: center;
+    width: 2.2em ;
+    height: 2.2em;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    float: left;
+}
+
+.sect-3 .pt-2 p {
+    font-size: 1em;
+    color: #000;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.pt-1 {
+    display: flex;
+    gap: 2em;
+    width: 50%;
+}
+.pt-1 .d-50{
+    width: 50%;
+    height: 15em;
+    background: #ece9e9;
+    border-radius: 0.7em;
+}
+.pt-1 .d-50 .disc-div ,
+.pt-1 .d-60 .disc-div2{
+    display: flex;
+    width: 90%;
+    float:right;
+    justify-content: space-between;
+    padding: 0.5em 0;
+   
+}
+.pt-1 .d-60 {
+    padding: 0.5em 0.8em;
+}
+.pt-1 .d-60 .disc-div2 {
+    width: 100%;
+}
+.disc-div .off {
+    font-family: "Londrina Outline";
+    font-size: 3em;
+}
+.disc-div2 .off {
+    padding: 0.1em 0.5em;
+    background: white;
+    opacity: 0.8;
+    border-radius: 0.3em;
+    color: #000;
+    font-weight: 900;
+}
+.disc-div2 .off span {
+    color: #b4b4b4;
+}
+.d-60 .text {
+    font-size: 0.85em;
+    color:#fff;
+}
+
+.pt-1 .d-60 .disc-div2 .arr,
+.disc-div .arr {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 1px solid #dfdcdc;
+    margin-right:0.5em;
+   place-content: center;
+   text-align: center;
+   background: #fff;
+   margin-top: 0.4em;
+
+}
+.pt-1 .d-60 .disc-div2 .arr{
+    margin-right: 0;
+}
+.pt-1 .d-60 .disc-div2 .arr a,
+.disc-div .arr a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.pt-1 .d-50 .fl {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    gap: 0.6em;
+}
+
+.pt-1 .d-50 .fl img {
+    height: 100%;
+    width: 30%;
+}
+.pt-1 .d-50 .fl .sp-btn {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+.pt-1 .d-50 .fl .sp {
+    font-size: 0.75em;
+    font-weight: 900;
+}
+.pt-1 .d-50 .fl .bt {
+    padding: 0.5em 1em;
+    background: #fff;
+    color: #000;
+    border-radius: 20em;
+    font-size: 0.7em;
+    text-align: center;
+    font-weight: 900;
+}
+.pt-1 .d-60{
+    margin-top: 4em;
+    width: 50%;
+    height: 15em;
+    background-image: url("../assets/landingPage/SB.png");
+    border-radius: 0.7em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sect-4 {
+    padding: 3em 4em;
+    width: 100%;
+}
+.sect-4 .product {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.sect-4 .product h1 {
+    font-size: 2em;
+}
+.sect-4 .product p {
+    text-align: right;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.sect-4 .product-card {
+    width: 100%;
+    max-width: 1400px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.sect-4 .product-card .main-ctn {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    transform: 0.3s ease;
+    gap: 0.8em;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.sect-4 .product-card  .P-card{
+    height: 25em;
+    width: 18em;
+    background-position: left  center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #ece9e9;
+    border-radius: 0.8em;
+    padding: 1.5em 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sect-4 .product-card  .p-card1 {
+    background-image: url("../assets/landingPage/cloudmilk2.png");
+}
+.sect-4 .product-card  .p-card2 {
+    background-image: url("../assets/landingPage/fentyskin.png");
+}
+.sect-4 .product-card  .p-card3 {
+    background-image: url("../assets/landingPage/collagen.png");
+}
+.sect-4 .product-card  .p-card4 {
+    background-image: url("../assets/landingPage/arganoil.png");
+}
+.sect-4 .product-card  .p-card5 {
+    background-image: url("../assets/landingPage/cerave.png");
+}
+.sect-4 .product-card  .p-card6 {
+    background-image: url("../assets/landingPage/oud.png");
+}
+.sect-4 .product-card  .p-card7 {
+    background-image: url("../assets/landingPage/sauvage.png");
+}
+.sect-4 .product-card  .p-card8 {
+    background-image: url("../assets/landingPage/gucci.png");
+}
+.sect-4 .product-card  .p-card9 {
+    background-image: url("../assets/landingPage/advancedclinicals.png");
+}
+.sect-4 .product-card  .p-card10 {
+    background-image: url("../assets/landingPage/olayvitaminc.png");
+}
+.sect-4 .product-card  .p-card11 {
+    background-image: url("../assets/landingPage/drteals.png");
+}
+.sect-4 .product-card  .p-card12 {
+    background-image: url("../assets/landingPage/medix.png");
+}
+.sect-4 .product-card  .p-card13 {
+    background-image: url("../assets/landingPage/molecule.png");
+}
+.sect-4 .product-card  .P-card .cart {
+    display: flex;
+    font-weight: 700;
+    font-size: 0.9em;
+    background: #fff;
+    color: #000;
+    border-radius: 10em;
+    padding: 0.4em 1em;
+    align-items: center;
+    width: 10em;
+    justify-content: center;
+}
+
+.sect-4 .product-card  .P-card .cart strong {
+    font-weight: 900;
+    font-size: 1.3em;
+    margin-left: 0.3em;
+}
+.itemName{
+    display: flex;
+    justify-content: space-between;
+    float: bottom;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.itemName .ptag {
+    padding: 0.5em 1em;
+    border: 1px solid #c1c1c1;
+    border-radius: 30em;
+}
+.controls{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls .btn {
+    display: flex;
+    padding-left: 1.3em;
+    width: 10em;
+    height: 2.7em;
+    background:#000;
+    border-radius: 15em;
+    align-items: center;
+    color: #fff;
+    font-size: 0.85em;
+}
+.controls .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.controls .btn .btn2 {
+    display: flex;
+    margin-left: 0.85em;
+    align-items: center;
+    justify-content: center;
+    width: 2.2em ;
+    height: 2.2em;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    float: left;
+    font-weight: 700;
+}
+
+.controls .pagination {
+    display: flex;
+    align-items: center;
+}
+.controls .pagination .next,
+.controls .pagination .prev{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: 1px solid #c1c1c1;
+    font-size: 1em;
+    margin-right: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #c1c1c1;
+}
+
+.controls .pagination .next.active,
+.controls .pagination .prev.active{
+    border: 1px solid #000;
+    color: #000;
+}
+
+.controls .pagination  .avail-prod{
+    color: #000;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+.sect-5 {
+    display: flex;
+    width: 100%;
+    padding: 3em 4em;
+    background: #ffac39;
+}
+.sect-5 .img {
+    width: 40%;
+    height: 50vh;
+}
+.sect-5 .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sect-5 .sect {
+    width: 60%;
+    padding-top: 2em;
+}
+.sect .txt {
+    display: flex;
+    color: #000;
+    justify-content: space-between;
+}
+.txt p {
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.crds {
+    width: 100%;
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crds .crd {
+    display:flex;
+    width: 14em;
+    border-radius: 0.7em;
+    padding: 1em 1em;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, .25);
+}
+.crds .crd .icon {
+    padding: 0.3em 0.5em;
+    background: #fff;
+    font-size: 2em;
+    opacity:1;
+    color: #000;
+    border-radius: 0.3em;
+}
+
+.crd .tx {
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.sect-6{
+    width: 100%;
+    padding: 3em 4em;
+    background: #fff;
+}
+.sect-6 .text-sect {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+
+}
+.sect-6 .text-sect h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2em;
+}
+.sect-6 .text-sect .ctn-span {
+    display: flex;
+    align-items: center;
+}
+.sect-6 .text-sect .ctn-span .left{
+    display: flex;
+    height: 2em;
+    width: 2em;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 1em;
+    justify-content: center;
+    margin-left: 0.7em;
+}
+
+.sect-6 .text-sect .ctn-span .left.active {
+    border: 1px solid #000;
+}
+
+
+.sect-6 .crd {
+    margin-top: 2em;
+    width: 100%;
+    max-width: 1400px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.sect-6 .crd .card {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    transform: 0.3s ease;
+    gap: 0.8em;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.sect-6 .crd .card .review-container{
+    height: 15em;
+    width: 37.5em;
+    background-color: #ece9e9;
+    border-radius: 0.8em;
+    padding: 1.5em 0.8em;
+    display: flex;
+    flex-direction: column;
+    
+}
+.reviewer-name{
+    width: 7em;
+    padding: 0.3em 0.5em;
+    border-radius: 5em;
+    border: 1px solid #c1c1c1;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+.review-text{
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+.review-source {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+    font-size: 0.8em;
+    align-items: center;
+}
+.review-source strong{
+    margin-left: 0.4em;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.slides {
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 2em;
+}
+.slides .div1 {
+    height: 0.3em;
+    width: 5em;
+    background: #c1c1c1;
+    border-radius: 30em;
+}
+.slides .div1.active{
+    background-color: gray;
+}
+
+
+@media (max-width: 1300px){
+    .hero .part1 h1 {
+        font-size: 1.5em;
+    }
+    .hero .part1 .btn {
+        margin-top: 1.5em;
+        display: flex;
+        padding-left: 1.5em;
+        width: 10em;
+        height: 2.5em;
+        font-size: 0.8em;
+    }
+    .hero .part1 .btn a {
+        font-size:0.8em;
+    }
+    .hero .part1 .btn .btn2 {
+        margin-left:1.2em;
+        width: 2em;
+        height: 2em;
+    }
+    .hero .part1 .card img {
+        width: 30%;
+    }
+    .hero .part2 .pics {
+        height: 70vh;
+        width: 60%;
+        background-position: left -6em top 0;
+    }
+    .hero .part2 .pics3 .open {
+        align-items: flex-start;
+        padding-top: 14em;
+    }
+    .hero .part2 .pics3 .open .text {
+        margin-right: 1.5em;
+    }
+    .hero {
+        min-height: 50vh;
+    }
+    .hero .part2 .pics3 {
+        width: 60%;
+        height: 70vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 1040px){
+
+    .hero {
+        padding: 2em 2em;
+    }
+    .hero .part1 p {
+        font-size: 0.7em;
+        line-height: 1.5;
+    }
+
+    .hero .part1 .card {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0em;
+        padding-right: 2em;
+    }
+
+    .hero .part1 .card img {
+        width: 29%;
+    }
+
+    .hero .part2 .pics {
+        height: 80vh;
+    }  
+    .hero .part2 .pics3 .open .text {
+        margin-right: 1em;
+    }
+    .hero .part2 .pics3 .open .arr {
+        width: 1.7em;
+        height: 1.7em;
+        font-size: 1.7em;
+        left: -1.8em;
+    }
+    .sect-2,.sect-3, .sect-4, .sect-5, .sect-6 {
+        padding: 2em 2em;
+    }
+    .sect-3 .pt-2 .btn{
+    margin-top: 1.5em;
+    display: flex;
+    padding-left: 1.5em;
+    width: 10em;
+    height: 2.5em;
+    font-size: 0.8em;
+    }
+    .sect-3 .pt-2 .btn a {
+        font-size: 0.8em;
+    }
+    .sect-3 .pt-2 .btn .btn2 {
+        margin-left: 1.2em;
+        width: 2em;
+        height: 2em;
+    }
+    .crds .crd {
+        width: 11em;
+        padding: 0.6em 0.6em;
+    }
+    .sect-6 .text-sect h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 1025px) {
+    .hero{
+        min-height: 30vh;
+        padding-bottom:0;
+    }
+    .hero .part2 .pics {
+        height: 40vh;
+    }
+    .hero .part2 .pics {
+    width: 60%;
+    background-image: url('../assets/landingPage/centellerz.png');
+    background-position: left -4em top -4em;
+    }
+    .hero .part2 .pics3 {
+        height: 40vh;
+    }
+
+    .sect-2 h1 {
+        margin-bottom: 2em;
+        line-height: 0em;
+    }
+    .sect-5  {
+        display: flex;
+        flex-direction: column
+   }
+   .sect-5 .sect {
+    width: 100%;
+    padding-top: 0em;
+    }
+    .sect .txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .sect .txt h1 {
+        line-height: 2;
+    }
+    .crds .crd {
+        width: 15em;
+        padding: 0.6em 0.9em;
+    }
+    .sect-5 .img {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+    .sect-5 .img img {
+    width: 50%;
+    }
+}
+
+@media (max-width:900px){
+    .hero {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+    }
+    .hero .part1, .hero .part2 {
+        width: 100%;
+    }
+    .hero .part1 p {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+    .hero .part1 .card img {
+        width: 31%;
+    }
+    .hero .part1 .card {
+        padding-right: 0em;
+    }
+
+    .hero .part2 {
+        padding-top: 2em;
+    }
+    .hero .part2 .pics {
+        background-image: url('../assets/landingPage/centellerz.png');
+        height: 40vh;
+        width: 40%;
+        background-position:center;
+    }
+    .hero .part2 {
+        height: 40vh;
+    }
+    .hero .part2 .pics3 .sm-pics {
+        width: 20em;
+    }
+    .cards .sp {
+        padding: 0.5em 0.5em;
+        left: 0.7em;
+        font-size: 0.7em;
+    }
+    .card .content .arr {
+        height: 2em;
+        width: 2em;
+    }
+    .sect-3 .pt-2 {
+        padding-left: 3em;
+    }
+    .sect-3 .pt-2 p {
+        font-size: 0.8em;
+    }
+    .sect-4 .product h1 {
+        font-size: 1.5em;
+    }
+
+    .itemName {
+        font-size: 0.6em;
+    }
+    .sect-4 .product-card  .P-card .cart {
+        font-size: 0.6em;
+    }
+    .controls .pagination .next, .controls .pagination .prev {
+        width: 2em;
+        height: 2em;
+    }
+   .sect-5  {
+        display: flex;
+        flex-direction: column
+   }
+   .sect-5 .sect {
+    width: 100%;
+    padding-top: 0em;
+    }
+    .sect .txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .sect .txt h1 {
+        line-height: 2;
+    }
+    .crds .crd {
+        width: 13em;
+        padding: 0.6em 0.6em;
+    }
+    .sect-5 .img {
+        width: 100%;
+        height: 50vh;
+    }
+    .sect-6 .crd .card .review-container {
+        height: 18em;
+    }
+    .sect-5 .img {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+    .sect-5 .img img {
+    width: 70%;
+    }
+}
+
+@media (max-width: 600px){
+    .cards .card {
+        width: 50%;
+    }
+    .none{
+        display: none;
+    }
+
+    .pt-1 {
+        gap: 0.2em;
+    }
+    .pt-1 .d-50 {
+        height: 12em;
+    }
+    .disc-div .off {
+        font-size: 1.5em;
+    }
+    .pt-1 .d-50 .fl .sp {
+        font-size: 0.5em;
+        font-weight: 600;
+    }
+    .pt-1 .d-60 .disc-div2 .arr, .disc-div .arr {
+        margin-top: 0em;
+    }
+    .pt-1 .d-50 .fl .bt {
+        padding: 0.5em 0.3em;
+        font-size: 0.5em;
+        font-weight: 600;
+    }
+    .pt-1 .d-50 .fl {
+        gap: 0.2em;
+    }
+    .d-60 .text {
+    font-size: 0.65em;
+    }
+    .sect-2{
+        margin-top: 5em;
+    }
+
+
+    .disc-div2 .off {
+        font-size: 1em;
+    }
+    .pt-1 .d-60 {
+    height: 12em;
+    }
+    .sect-3 .pt-2 p {
+        font-size: 0.6em;
+    }
+
+    .hero .part1 p {
+        font-size: 0.8em;
+        line-height: 1.5;
+    }
+
+    .sect-3 .pt-2 {
+        padding-left: 1em;
+    }
+    .sect-4 .product h1 {
+        font-size: 1em;
+    }
+    .sect-4 .product p {
+        font-size: 0.65em;
+    }
+    .crd .tx {
+        font-size: 0.7em;
+    }
+    .crds .crd .icon {
+        padding: 0.2em 0.5em;
+        font-size: 1.5em;
+    }
+    .crds .crd {
+        width: 9em;
+        padding: 0.6em 0.6em;
+    }
+    .sect .txt h1 {
+        line-height: 2;
+        font-size: 1em;
+    }
+    .txt p {
+        padding-top: 1em;
+        font-size: 0.65em;
+    }
+    .sect-6 .text-sect h1 {
+        font-size: 1em;
+    }
+    .sect-6 .text-sect .ctn-span span{
+        font-size: 0.8em;
+    }
+    .sect-6 .text-sect .ctn-span .left{
+        height: 1.5em;
+        width: 1.5em;
+        font-size: 0.85em;
+        margin-left: 0.5em;
+    }
+    .sect-6 .crd .card .review-container {
+        height: 15em;
+    }
+   
+}
+@media (max-width: 477px){
+    .hero {
+        padding: 2em 1em;
+    }
+    .hero .part1 h1 {
+        font-size: 1em;
+    }
+    .hero .part1 p {
+        font-size: 0.6em;
+        line-height: 1.5;
+    }
+    .hero .part1 .tag1 {
+        display: none;
+        font-size: 0.85em;
+    }
+    .hero .part1 .tag2 {
+        display: flex;
+        font-size: 0.85em;
+    }
+    .sect-2 {
+        margin-top: 0;
+    }
+    .hero .part2 .pics3 .sm-pics {
+        width: 100%;
+    }
+    .hero .part2 .pics3 .open .text {
+        margin-right: 0;
+    }
+    .hero .part2 .pics3 .open {
+        font-size: 0.6em;
+    }
+    .hero .part2 .pics3 .sm-pics .content {
+        font-size: 0.7em;
+    }
+
+    .hero .part2 .pics3 .sm-pics .content .arr {
+        height: 2em;
+        width: 2em;
+    }
+    .hero .part2 .pics3 .sm-pics .disc {
+        padding: 0.4em 0.5em;
+        font-size: 0.6em;
+    }
+    .hero .part2 .pics3 .sm-pics .price {
+        padding: 0.4em 0.5em;
+        border-radius: 0.5em;
+        font-size: 0.6em;
+        left: 1.5em;
+        bottom: 6.5em;
+    }
+    .cards .sp {
+        padding: 0.5em 0.3em;
+        left: 0.7em;
+        font-size: 0.6em;
+    }
+    .sect-2, .sect-3, .sect-4, .sect-5, .sect-6 {
+        padding: 2em 1em;
+    }
+    .sect-2 h1 {
+        font-size: 1em;
+    }
+    .cards {
+        height: 17em;
+        width: 100%;
+        gap: 5px;
+    }
+    .sect-3 .pt-2 {
+        padding-left: 0.6em;
+    }
+    .disc-div2 .off {
+        font-size: 0.7em;
+    }
+    .pt-1 .d-60 {
+        padding: 0.5em 0.2em;
+    }
+    .pt-1 .d-60 .disc-div2 .arr, .disc-div .arr {
+        height: 1.5em;
+        width: 1.5em;
+    }
+    .pt-1 .d-60 .disc-div2 .arr a, .disc-div .arr a {
+        font-size: 1em;
+    }
+    .d-60 .text {
+        font-size: 0.5em;
+    }
+    .sect-3 .pt-2 .tag3 {
+        display: none;
+    }
+    .sect-3 .pt-2 .tag4{
+        font-size: 0.5em;
+    }
+    .sect-3 .pt-2 .btn {
+        margin-top: 1.5em;
+        display: flex;
+        padding-left: 1.5em;
+        width: 10em;
+        height: 2.3em;
+        font-size: 0.7em;
+    }
+    .sect-3 .pt-2 .btn .btn2 {
+        margin-left: 1.6em;
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .pt-1 .d-60,
+    .pt-1 .d-50  {
+        height: 10em;
+    }
+    .pt-1 {
+        width: 60%;
+    }
+    .sect-3 .pt-2 {
+        width: 40%;
+    }
+    .pt-1 .d-50 .fl .sp-btn {
+        padding-bottom: 0.5em;
+    }
+    .pt-1 .d-50 .fl .sp {
+        font-size: 0.4em;
+    }
+    .pt-1 .d-50 .fl .bt {
+        font-size: 0.4em;
+    }
+    .sect-4 .product p {
+        font-size: 0.4em;
+    }
+    .sect-4 .product h1 {
+        font-size: 0.8em;
+    }
+    .controls .pagination  .avail-prod {
+        font-size: 0.6em;
+    }
+    .controls .pagination .next, .controls .pagination .prev {
+        width: 1.5em;
+        height: 1.5em;
+        font-size: 0.8em;
+        margin-right: 0.5em;
+    }
+    .controls .btn {
+        padding-left: 1.3em;
+        width: 10em;
+        height: 2.3em;
+        font-size: 0.6em;
+    }
+    .controls .btn .btn2 {
+        
+        width: 2em;
+        height: 2em;
+    }
+    .crds .crd {
+        width: 6em;
+        padding: 0.6em 0.6em;
+    }
+    .crds .crd .icon {
+        padding: 0.2em 0.3em;
+        font-size: 1em;
+    }
+    .crd .tx {
+        font-size: 0.5em;
+    }
+    .sect-5 .img {
+        height: 17vh;
+    }
+    .sect-6 .text-sect h1{
+        font-size: 0.7em;
+    }
+    .sect-6 .text-sect .ctn-span span {
+        font-size: 0.6em;
+    }
+    .sect-6 .text-sect .ctn-span .left {
+        height: 1.3em;
+        width: 1.3em;
+        font-size: 0.75em;
+        margin-left: 0.5em;
+    }
+    .review-text {
+        font-size: 0.6em;
+        margin-bottom: 1.5em;
+    }
+}

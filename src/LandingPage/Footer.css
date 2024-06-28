@@ -1,0 +1,113 @@
+footer {
+    padding: 3em 4em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+footer .logo, footer .home {
+    width: 18em;
+    
+}
+
+footer .logo .img {
+    width: 100%;
+}
+
+footer .logo .img img {
+    width: 60%;
+}
+
+.logo p, 
+.logo .email{
+    font-weight: 700;
+    color: #000;
+}
+.logo .icons{
+   display: flex;
+   gap: 1em;
+   width: 100%;
+}
+.logo .icons span {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    cursor: pointer;
+} 
+
+
+.logo .icons span a {
+    color: #fff;
+}
+.logo .icons span:hover  a{
+    color: #ffac39;
+}
+.home{
+    padding-top: 1em;
+}
+
+.home h4{
+    line-height: 3em;
+    font-weight: 700;
+    color: #000;
+}
+.home :nth-child(2){
+    font-weight:700;
+}
+.nth :nth-child(2) {
+    font-weight: 500;
+}
+.home span {
+    display: block;
+    line-height: 2em;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+@media (max-width: 1040px){
+    footer .logo, footer .home {
+        width: 15em;
+    }
+}
+@media (max-width: 600px){
+    footer {
+        padding: 2em 2em;
+        gap: 1em;
+    }
+    footer .logo, footer .home {
+        width: 12em;
+    }
+    .logo .icons span {
+        height: 2em;
+        width: 2em;
+    }
+    .home span {
+        font-size: 0.8em;
+    }
+
+
+}
+
+@media (max-width: 477px){
+    footer .logo, footer .home {
+        width: 8em;
+    }
+    .logo p, .logo .email {
+        font-size: 0.8em;
+    }
+    .logo .icons span {
+        display: flex;
+        align-items: center;
+        height: 1.7em;
+        width: 1.7em;
+        font-size: 0.7em;
+    }
+    .home span {
+        font-size: 0.6em;
+    }
+}
